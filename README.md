@@ -96,18 +96,3 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 You can adapt this to your needs by adding specifics related to your project and including more instructions or details about other features. Adding emojis and visual elements makes it more appealing, and including the deployment steps helps users get your project running easily.
 
 
-## Hugging Face Token
-
-Speaker diarization needs a Hugging Face access token. Do not hardcode it in the code.
-
-Create a `.env` file locally:
-
-```env
-HF_TOKEN=your_huggingface_token_here
-```
-
-When running with Docker, pass the env file:
-
-```bash
-docker run --env-file .env -p 3010:3010 multi-asr-server
-```
