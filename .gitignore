@@ -1,0 +1,31 @@
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build / cache
+dist/
+build/
+.cache/
+
+# Downloaded models / large assets
+assets/model/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
